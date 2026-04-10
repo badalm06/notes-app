@@ -1,0 +1,669 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/d97457dcc8a1feccac2d0518fca3b89d/transformed/firebase-auth-ktx-23.1.0/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:17:1-75:12
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/badalsharma/.gradle/caches/8.9/transforms/8d3e1916c7d4639148d35506493e0486/transformed/credentials-1.2.0-rc01/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/badalsharma/.gradle/caches/8.9/transforms/56cd0e12cef7a66b57ef26121fa6f7d2/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-auth:21.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/3368b069eba9f8990ff4aa0a99661929/transformed/play-services-auth-21.3.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/badalsharma/.gradle/caches/8.9/transforms/02c6eed87dba4f090c5e4f2247e211a1/transformed/play-services-auth-api-phone-18.0.2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] /Users/badalsharma/.gradle/caches/8.9/transforms/1a12b4c830bb92fc1988c6895661c91d/transformed/play-services-auth-base-18.0.10/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/82c91e29a904c5b0707da28c908e8d14/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/7fbce4332ea5a0aaf4506a7c8713c6bf/transformed/play-services-fido-20.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/badalsharma/.gradle/caches/8.9/transforms/155c82107601b1a2624fa07a31168fb0/transformed/play-services-base-18.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/badalsharma/.gradle/caches/8.9/transforms/8a9b2389c956e1c18167e234ec19ca8e/transformed/room-runtime-2.6.1/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/badalsharma/.gradle/caches/8.9/transforms/9486210c2aafc22b59e8129b652bcfc8/transformed/room-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common:2.8.5] /Users/badalsharma/.gradle/caches/8.9/transforms/7241ef3885db35045474cae9cda1ba56/transformed/navigation-common-2.8.5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.8.5] /Users/badalsharma/.gradle/caches/8.9/transforms/5671726630c080fc8caa08e9f6c15343/transformed/navigation-runtime-2.8.5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.5] /Users/badalsharma/.gradle/caches/8.9/transforms/0ac3c52bcf9ce7c0f9d5dc1b0e0b5686/transformed/navigation-common-ktx-2.8.5/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.5] /Users/badalsharma/.gradle/caches/8.9/transforms/7200d952d8db813add8a044da2cee7fe/transformed/navigation-runtime-ktx-2.8.5/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.8.5] /Users/badalsharma/.gradle/caches/8.9/transforms/d8e8fb7f069954fc2950bdb79f89cf6d/transformed/navigation-compose-2.8.5/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/93a59b219196ef3b2a2c9368580e6c89/transformed/material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/abcba7e433b27c6fd39219d72e8a599c/transformed/material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/51f0b12ba89cb6a53f9479520e2a25cc/transformed/material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/7bca5b5f3fe1749735453629ab196a4d/transformed/foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/605a9639abb89f6f42980f618c1da396/transformed/foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/f32cfd05faa2108eed26999ff5e2b33f/transformed/animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/ee3d7445c58924a5bc9504deb043a16c/transformed/animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/05b91ba59e4dfad6449811724f740f4d/transformed/ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/f363e968ec447f6a4f9897a2b4ea19bf/transformed/ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/12dbba3f5978090450543ea5c0184878/transformed/ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/babacbf00c22584f7b184c4b146b5346/transformed/ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/813d5e59067d99f32d53793f0abe8fc2/transformed/ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/06709934ab9a2f8a61f88206f4fae642/transformed/ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/e76f5d959b77f2922960ab0f786a366d/transformed/ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/7d40dc042ed858d62cfe206bcf88edb2/transformed/ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/badalsharma/.gradle/caches/8.9/transforms/f505893e120088809e553d6003d48768/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/badalsharma/.gradle/caches/8.9/transforms/7b478aecfa969db82bd35ba216646b2b/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5249ca4ecc2f636aefb7e1089824300e/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/924dae0d5e7202d5552908e93a94f787/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/f2a453c81eece41d6a653246f07d9149/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/ebe435b9a986948a2c04f06df52fdb71/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/89ff12dc9e8a99526168af3336082e11/transformed/lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/5f48c2e66189ffadcbad1debd45de692/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/934eb08788a18b58192b223b2b155640/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/650b96c54f95a87e6f269adb1a5c3311/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/84f4006d330c669c65964f1edf3741f6/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/d6e7aff8c07112745e6705cedb8e706d/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/c8b9a86647677f9a0f81cb0ed87dfaef/transformed/material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/671ac6c79b2d8d25b5ffb99c68c23584/transformed/ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/5fec97499d599eecf439c16a9b7041b3/transformed/ui-test-manifest-1.7.6/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.activity:activity:1.9.3] /Users/badalsharma/.gradle/caches/8.9/transforms/72a66bc32624001d8e1eb01e22da3718/transformed/activity-1.9.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-compose:1.9.3] /Users/badalsharma/.gradle/caches/8.9/transforms/1ab87b5f43c99140fe900a08f2711296/transformed/activity-compose-1.9.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.9.3] /Users/badalsharma/.gradle/caches/8.9/transforms/671cf1576701ab39026425c975eeaafd/transformed/activity-ktx-1.9.3/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/8bb506a5d2d4fea396609415f578921b/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/58b147f4bfdd8ea5b09d0bda12df5319/transformed/runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/7f0edf8e720b1c700dd40cba59be375a/transformed/runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/badalsharma/.gradle/caches/8.9/transforms/3e175585b72ba538c1eae35648628b52/transformed/recaptcha-18.5.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /Users/badalsharma/.gradle/caches/8.9/transforms/061dfe98c4eeaa0fb2e9e51234276763/transformed/datastore-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-android:1.1.1] /Users/badalsharma/.gradle/caches/8.9/transforms/3f6f6cf4094b7544130a154aacbc7f18/transformed/datastore-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /Users/badalsharma/.gradle/caches/8.9/transforms/e3b5ef4425757b977a3546fd86346333/transformed/datastore-preferences-release/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/349cd41b90eb58b4e449eee1559e05aa/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/902481c91f65044b89c7ad217291e6ea/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/0b4a3007dfeb1ba01d93860cc35b6d57/transformed/firebase-common-21.0.0/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/f16222d842a1dd1d67c26aa7603149a0/transformed/integrity-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/badalsharma/.gradle/caches/8.9/transforms/c7ab46cd26bf66a7098da379b1902b1c/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/badalsharma/.gradle/caches/8.9/transforms/4b44bcb660e205d313ef9b87bc3061fd/transformed/play-services-basement-18.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.5.7] /Users/badalsharma/.gradle/caches/8.9/transforms/6e4af0758e08203bbfae4342d7a125b2/transformed/fragment-1.5.7/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/c10d7e0a107dd522bc49fbf19d495d50/transformed/loader-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/b74325950b0036967bc1393346e9cfbc/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.4.0] /Users/badalsharma/.gradle/caches/8.9/transforms/0633fc0ba1a4c5805c79f0108c002cd0/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/a5ee91759ece608896947ab9ce5de341/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/badalsharma/.gradle/caches/8.9/transforms/53d0bac4907c3b914265caad940d6f88/transformed/graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/ac99feb1ea02d337a1717ba070761eb6/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.15.0] /Users/badalsharma/.gradle/caches/8.9/transforms/bb563727ce06fef0bfc58202ff826151/transformed/core-1.15.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/a9a685e57104d6f6ad084d4b05840791/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.15.0] /Users/badalsharma/.gradle/caches/8.9/transforms/95aaf59fa8ad0720a75845710e0f556c/transformed/core-ktx-1.15.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/badalsharma/.gradle/caches/8.9/transforms/0b19ad2da7d1828f7fc991cc124dcec9/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/badalsharma/.gradle/caches/8.9/transforms/cb57d5ad37e74b2a941938ac6eeeb4c9/transformed/sqlite-2.4.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/badalsharma/.gradle/caches/8.9/transforms/b9a1ca05c17b2380fae9a76aa565e103/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/3c1864415e39c6a90447c2dceb712b84/transformed/firebase-components-18.0.0/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/2372f36fdde4c15c117860b8574d1b7c/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1da8bd92f14ad590941b6e325dd85dd5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/badalsharma/.gradle/caches/8.9/transforms/0790944aa06e071ce16f3105234c0c9b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5cccd65eff37aa24e23ecefd2f305cc4/transformed/tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/badalsharma/.gradle/caches/8.9/transforms/46c381ddb01644d60a1fc99065fee1a3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/f7d513f6ba43721f74dfbab094348a5b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1eb00f0de39cbf6eca140dfeed857496/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/940b0c6e0b899f9d51139f4cee06f757/transformed/googleid-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/badalsharma/.gradle/caches/8.9/transforms/70430400de2a16d6cf04b0bb2faedba4/transformed/core-common-2.0.3/AndroidManifest.xml:2:1-21:12
+	package
+		INJECTED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/badalsharma/.gradle/caches/8.9/transforms/3e175585b72ba538c1eae35648628b52/transformed/recaptcha-18.5.1/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/badalsharma/.gradle/caches/8.9/transforms/3e175585b72ba538c1eae35648628b52/transformed/recaptcha-18.5.1/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml:6:5-22:19
+INJECTED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml:6:5-22:19
+MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/d97457dcc8a1feccac2d0518fca3b89d/transformed/firebase-auth-ktx-23.1.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/d97457dcc8a1feccac2d0518fca3b89d/transformed/firebase-auth-ktx-23.1.0/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:28:5-73:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/badalsharma/.gradle/caches/8.9/transforms/56cd0e12cef7a66b57ef26121fa6f7d2/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:23:5-42:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/badalsharma/.gradle/caches/8.9/transforms/56cd0e12cef7a66b57ef26121fa6f7d2/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:23:5-42:19
+MERGED from [com.google.android.gms:play-services-auth:21.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/3368b069eba9f8990ff4aa0a99661929/transformed/play-services-auth-21.3.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:21.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/3368b069eba9f8990ff4aa0a99661929/transformed/play-services-auth-21.3.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/82c91e29a904c5b0707da28c908e8d14/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/82c91e29a904c5b0707da28c908e8d14/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/7fbce4332ea5a0aaf4506a7c8713c6bf/transformed/play-services-fido-20.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/7fbce4332ea5a0aaf4506a7c8713c6bf/transformed/play-services-fido-20.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/badalsharma/.gradle/caches/8.9/transforms/155c82107601b1a2624fa07a31168fb0/transformed/play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/badalsharma/.gradle/caches/8.9/transforms/155c82107601b1a2624fa07a31168fb0/transformed/play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/badalsharma/.gradle/caches/8.9/transforms/8a9b2389c956e1c18167e234ec19ca8e/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/badalsharma/.gradle/caches/8.9/transforms/8a9b2389c956e1c18167e234ec19ca8e/transformed/room-runtime-2.6.1/AndroidManifest.xml:23:5-29:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/7d40dc042ed858d62cfe206bcf88edb2/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/7d40dc042ed858d62cfe206bcf88edb2/transformed/ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5249ca4ecc2f636aefb7e1089824300e/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5249ca4ecc2f636aefb7e1089824300e/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/924dae0d5e7202d5552908e93a94f787/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/924dae0d5e7202d5552908e93a94f787/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/5fec97499d599eecf439c16a9b7041b3/transformed/ui-test-manifest-1.7.6/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/5fec97499d599eecf439c16a9b7041b3/transformed/ui-test-manifest-1.7.6/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/349cd41b90eb58b4e449eee1559e05aa/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/349cd41b90eb58b4e449eee1559e05aa/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/902481c91f65044b89c7ad217291e6ea/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/902481c91f65044b89c7ad217291e6ea/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/0b4a3007dfeb1ba01d93860cc35b6d57/transformed/firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/0b4a3007dfeb1ba01d93860cc35b6d57/transformed/firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/f16222d842a1dd1d67c26aa7603149a0/transformed/integrity-1.3.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/f16222d842a1dd1d67c26aa7603149a0/transformed/integrity-1.3.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/badalsharma/.gradle/caches/8.9/transforms/c7ab46cd26bf66a7098da379b1902b1c/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/badalsharma/.gradle/caches/8.9/transforms/c7ab46cd26bf66a7098da379b1902b1c/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/badalsharma/.gradle/caches/8.9/transforms/4b44bcb660e205d313ef9b87bc3061fd/transformed/play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/badalsharma/.gradle/caches/8.9/transforms/4b44bcb660e205d313ef9b87bc3061fd/transformed/play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.core:core:1.15.0] /Users/badalsharma/.gradle/caches/8.9/transforms/bb563727ce06fef0bfc58202ff826151/transformed/core-1.15.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.15.0] /Users/badalsharma/.gradle/caches/8.9/transforms/bb563727ce06fef0bfc58202ff826151/transformed/core-1.15.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1da8bd92f14ad590941b6e325dd85dd5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1da8bd92f14ad590941b6e325dd85dd5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/badalsharma/.gradle/caches/8.9/transforms/0790944aa06e071ce16f3105234c0c9b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/badalsharma/.gradle/caches/8.9/transforms/0790944aa06e071ce16f3105234c0c9b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/badalsharma/.gradle/caches/8.9/transforms/46c381ddb01644d60a1fc99065fee1a3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/badalsharma/.gradle/caches/8.9/transforms/46c381ddb01644d60a1fc99065fee1a3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/badalsharma/.gradle/caches/8.9/transforms/70430400de2a16d6cf04b0bb2faedba4/transformed/core-common-2.0.3/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/badalsharma/.gradle/caches/8.9/transforms/70430400de2a16d6cf04b0bb2faedba4/transformed/core-common-2.0.3/AndroidManifest.xml:11:5-19:19
+	android:extractNativeLibs
+		INJECTED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.15.0] /Users/badalsharma/.gradle/caches/8.9/transforms/bb563727ce06fef0bfc58202ff826151/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml:12:9-46
+activity#com.notesapp.MainActivity
+ADDED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml:13:9-21:20
+	android:windowSoftInputMode
+		ADDED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml:16:13-55
+	android:exported
+		ADDED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml:15:13-36
+	android:name
+		ADDED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml:14:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml:17:13-20:29
+action#android.intent.action.MAIN
+ADDED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml
+MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/d97457dcc8a1feccac2d0518fca3b89d/transformed/firebase-auth-ktx-23.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/d97457dcc8a1feccac2d0518fca3b89d/transformed/firebase-auth-ktx-23.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:21:5-23:151
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/badalsharma/.gradle/caches/8.9/transforms/8d3e1916c7d4639148d35506493e0486/transformed/credentials-1.2.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /Users/badalsharma/.gradle/caches/8.9/transforms/8d3e1916c7d4639148d35506493e0486/transformed/credentials-1.2.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/badalsharma/.gradle/caches/8.9/transforms/56cd0e12cef7a66b57ef26121fa6f7d2/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:21:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/badalsharma/.gradle/caches/8.9/transforms/56cd0e12cef7a66b57ef26121fa6f7d2/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/3368b069eba9f8990ff4aa0a99661929/transformed/play-services-auth-21.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:21.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/3368b069eba9f8990ff4aa0a99661929/transformed/play-services-auth-21.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/badalsharma/.gradle/caches/8.9/transforms/02c6eed87dba4f090c5e4f2247e211a1/transformed/play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/badalsharma/.gradle/caches/8.9/transforms/02c6eed87dba4f090c5e4f2247e211a1/transformed/play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] /Users/badalsharma/.gradle/caches/8.9/transforms/1a12b4c830bb92fc1988c6895661c91d/transformed/play-services-auth-base-18.0.10/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.10] /Users/badalsharma/.gradle/caches/8.9/transforms/1a12b4c830bb92fc1988c6895661c91d/transformed/play-services-auth-base-18.0.10/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/82c91e29a904c5b0707da28c908e8d14/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/82c91e29a904c5b0707da28c908e8d14/transformed/firebase-appcheck-interop-17.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/7fbce4332ea5a0aaf4506a7c8713c6bf/transformed/play-services-fido-20.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/7fbce4332ea5a0aaf4506a7c8713c6bf/transformed/play-services-fido-20.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/badalsharma/.gradle/caches/8.9/transforms/155c82107601b1a2624fa07a31168fb0/transformed/play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/badalsharma/.gradle/caches/8.9/transforms/155c82107601b1a2624fa07a31168fb0/transformed/play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/badalsharma/.gradle/caches/8.9/transforms/8a9b2389c956e1c18167e234ec19ca8e/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-runtime:2.6.1] /Users/badalsharma/.gradle/caches/8.9/transforms/8a9b2389c956e1c18167e234ec19ca8e/transformed/room-runtime-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/badalsharma/.gradle/caches/8.9/transforms/9486210c2aafc22b59e8129b652bcfc8/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.6.1] /Users/badalsharma/.gradle/caches/8.9/transforms/9486210c2aafc22b59e8129b652bcfc8/transformed/room-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.5] /Users/badalsharma/.gradle/caches/8.9/transforms/7241ef3885db35045474cae9cda1ba56/transformed/navigation-common-2.8.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.5] /Users/badalsharma/.gradle/caches/8.9/transforms/7241ef3885db35045474cae9cda1ba56/transformed/navigation-common-2.8.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.5] /Users/badalsharma/.gradle/caches/8.9/transforms/5671726630c080fc8caa08e9f6c15343/transformed/navigation-runtime-2.8.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.5] /Users/badalsharma/.gradle/caches/8.9/transforms/5671726630c080fc8caa08e9f6c15343/transformed/navigation-runtime-2.8.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.5] /Users/badalsharma/.gradle/caches/8.9/transforms/0ac3c52bcf9ce7c0f9d5dc1b0e0b5686/transformed/navigation-common-ktx-2.8.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.5] /Users/badalsharma/.gradle/caches/8.9/transforms/0ac3c52bcf9ce7c0f9d5dc1b0e0b5686/transformed/navigation-common-ktx-2.8.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.5] /Users/badalsharma/.gradle/caches/8.9/transforms/7200d952d8db813add8a044da2cee7fe/transformed/navigation-runtime-ktx-2.8.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.5] /Users/badalsharma/.gradle/caches/8.9/transforms/7200d952d8db813add8a044da2cee7fe/transformed/navigation-runtime-ktx-2.8.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.5] /Users/badalsharma/.gradle/caches/8.9/transforms/d8e8fb7f069954fc2950bdb79f89cf6d/transformed/navigation-compose-2.8.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.5] /Users/badalsharma/.gradle/caches/8.9/transforms/d8e8fb7f069954fc2950bdb79f89cf6d/transformed/navigation-compose-2.8.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/93a59b219196ef3b2a2c9368580e6c89/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/93a59b219196ef3b2a2c9368580e6c89/transformed/material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/abcba7e433b27c6fd39219d72e8a599c/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/abcba7e433b27c6fd39219d72e8a599c/transformed/material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/51f0b12ba89cb6a53f9479520e2a25cc/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/51f0b12ba89cb6a53f9479520e2a25cc/transformed/material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/7bca5b5f3fe1749735453629ab196a4d/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/7bca5b5f3fe1749735453629ab196a4d/transformed/foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/605a9639abb89f6f42980f618c1da396/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/605a9639abb89f6f42980f618c1da396/transformed/foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/f32cfd05faa2108eed26999ff5e2b33f/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/f32cfd05faa2108eed26999ff5e2b33f/transformed/animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/ee3d7445c58924a5bc9504deb043a16c/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/ee3d7445c58924a5bc9504deb043a16c/transformed/animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/05b91ba59e4dfad6449811724f740f4d/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/05b91ba59e4dfad6449811724f740f4d/transformed/ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/f363e968ec447f6a4f9897a2b4ea19bf/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/f363e968ec447f6a4f9897a2b4ea19bf/transformed/ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/12dbba3f5978090450543ea5c0184878/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/12dbba3f5978090450543ea5c0184878/transformed/ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/babacbf00c22584f7b184c4b146b5346/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/babacbf00c22584f7b184c4b146b5346/transformed/ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/813d5e59067d99f32d53793f0abe8fc2/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/813d5e59067d99f32d53793f0abe8fc2/transformed/ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/06709934ab9a2f8a61f88206f4fae642/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/06709934ab9a2f8a61f88206f4fae642/transformed/ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/e76f5d959b77f2922960ab0f786a366d/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/e76f5d959b77f2922960ab0f786a366d/transformed/ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/7d40dc042ed858d62cfe206bcf88edb2/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/7d40dc042ed858d62cfe206bcf88edb2/transformed/ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/badalsharma/.gradle/caches/8.9/transforms/f505893e120088809e553d6003d48768/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/badalsharma/.gradle/caches/8.9/transforms/f505893e120088809e553d6003d48768/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/badalsharma/.gradle/caches/8.9/transforms/7b478aecfa969db82bd35ba216646b2b/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/badalsharma/.gradle/caches/8.9/transforms/7b478aecfa969db82bd35ba216646b2b/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5249ca4ecc2f636aefb7e1089824300e/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5249ca4ecc2f636aefb7e1089824300e/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/924dae0d5e7202d5552908e93a94f787/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/924dae0d5e7202d5552908e93a94f787/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/f2a453c81eece41d6a653246f07d9149/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/f2a453c81eece41d6a653246f07d9149/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/ebe435b9a986948a2c04f06df52fdb71/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/ebe435b9a986948a2c04f06df52fdb71/transformed/lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/89ff12dc9e8a99526168af3336082e11/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/89ff12dc9e8a99526168af3336082e11/transformed/lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/5f48c2e66189ffadcbad1debd45de692/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/5f48c2e66189ffadcbad1debd45de692/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/934eb08788a18b58192b223b2b155640/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/934eb08788a18b58192b223b2b155640/transformed/lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/650b96c54f95a87e6f269adb1a5c3311/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/650b96c54f95a87e6f269adb1a5c3311/transformed/lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/84f4006d330c669c65964f1edf3741f6/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/84f4006d330c669c65964f1edf3741f6/transformed/lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/d6e7aff8c07112745e6705cedb8e706d/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/d6e7aff8c07112745e6705cedb8e706d/transformed/lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/c8b9a86647677f9a0f81cb0ed87dfaef/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/c8b9a86647677f9a0f81cb0ed87dfaef/transformed/material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/671ac6c79b2d8d25b5ffb99c68c23584/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/671ac6c79b2d8d25b5ffb99c68c23584/transformed/ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/5fec97499d599eecf439c16a9b7041b3/transformed/ui-test-manifest-1.7.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-test-manifest:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/5fec97499d599eecf439c16a9b7041b3/transformed/ui-test-manifest-1.7.6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] /Users/badalsharma/.gradle/caches/8.9/transforms/72a66bc32624001d8e1eb01e22da3718/transformed/activity-1.9.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.3] /Users/badalsharma/.gradle/caches/8.9/transforms/72a66bc32624001d8e1eb01e22da3718/transformed/activity-1.9.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.9.3] /Users/badalsharma/.gradle/caches/8.9/transforms/1ab87b5f43c99140fe900a08f2711296/transformed/activity-compose-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.9.3] /Users/badalsharma/.gradle/caches/8.9/transforms/1ab87b5f43c99140fe900a08f2711296/transformed/activity-compose-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] /Users/badalsharma/.gradle/caches/8.9/transforms/671cf1576701ab39026425c975eeaafd/transformed/activity-ktx-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.3] /Users/badalsharma/.gradle/caches/8.9/transforms/671cf1576701ab39026425c975eeaafd/transformed/activity-ktx-1.9.3/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/8bb506a5d2d4fea396609415f578921b/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/8bb506a5d2d4fea396609415f578921b/transformed/lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/58b147f4bfdd8ea5b09d0bda12df5319/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/58b147f4bfdd8ea5b09d0bda12df5319/transformed/runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/7f0edf8e720b1c700dd40cba59be375a/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/7f0edf8e720b1c700dd40cba59be375a/transformed/runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/badalsharma/.gradle/caches/8.9/transforms/3e175585b72ba538c1eae35648628b52/transformed/recaptcha-18.5.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/badalsharma/.gradle/caches/8.9/transforms/3e175585b72ba538c1eae35648628b52/transformed/recaptcha-18.5.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /Users/badalsharma/.gradle/caches/8.9/transforms/061dfe98c4eeaa0fb2e9e51234276763/transformed/datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.1] /Users/badalsharma/.gradle/caches/8.9/transforms/061dfe98c4eeaa0fb2e9e51234276763/transformed/datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] /Users/badalsharma/.gradle/caches/8.9/transforms/3f6f6cf4094b7544130a154aacbc7f18/transformed/datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.1] /Users/badalsharma/.gradle/caches/8.9/transforms/3f6f6cf4094b7544130a154aacbc7f18/transformed/datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /Users/badalsharma/.gradle/caches/8.9/transforms/e3b5ef4425757b977a3546fd86346333/transformed/datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.1] /Users/badalsharma/.gradle/caches/8.9/transforms/e3b5ef4425757b977a3546fd86346333/transformed/datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/349cd41b90eb58b4e449eee1559e05aa/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/349cd41b90eb58b4e449eee1559e05aa/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/902481c91f65044b89c7ad217291e6ea/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/902481c91f65044b89c7ad217291e6ea/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/0b4a3007dfeb1ba01d93860cc35b6d57/transformed/firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/0b4a3007dfeb1ba01d93860cc35b6d57/transformed/firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/f16222d842a1dd1d67c26aa7603149a0/transformed/integrity-1.3.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/f16222d842a1dd1d67c26aa7603149a0/transformed/integrity-1.3.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/badalsharma/.gradle/caches/8.9/transforms/c7ab46cd26bf66a7098da379b1902b1c/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/badalsharma/.gradle/caches/8.9/transforms/c7ab46cd26bf66a7098da379b1902b1c/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/badalsharma/.gradle/caches/8.9/transforms/4b44bcb660e205d313ef9b87bc3061fd/transformed/play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/badalsharma/.gradle/caches/8.9/transforms/4b44bcb660e205d313ef9b87bc3061fd/transformed/play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.5.7] /Users/badalsharma/.gradle/caches/8.9/transforms/6e4af0758e08203bbfae4342d7a125b2/transformed/fragment-1.5.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.7] /Users/badalsharma/.gradle/caches/8.9/transforms/6e4af0758e08203bbfae4342d7a125b2/transformed/fragment-1.5.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/c10d7e0a107dd522bc49fbf19d495d50/transformed/loader-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/c10d7e0a107dd522bc49fbf19d495d50/transformed/loader-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/b74325950b0036967bc1393346e9cfbc/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/b74325950b0036967bc1393346e9cfbc/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.4.0] /Users/badalsharma/.gradle/caches/8.9/transforms/0633fc0ba1a4c5805c79f0108c002cd0/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /Users/badalsharma/.gradle/caches/8.9/transforms/0633fc0ba1a4c5805c79f0108c002cd0/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/a5ee91759ece608896947ab9ce5de341/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/a5ee91759ece608896947ab9ce5de341/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/badalsharma/.gradle/caches/8.9/transforms/53d0bac4907c3b914265caad940d6f88/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /Users/badalsharma/.gradle/caches/8.9/transforms/53d0bac4907c3b914265caad940d6f88/transformed/graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/ac99feb1ea02d337a1717ba070761eb6/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/ac99feb1ea02d337a1717ba070761eb6/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.15.0] /Users/badalsharma/.gradle/caches/8.9/transforms/bb563727ce06fef0bfc58202ff826151/transformed/core-1.15.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.15.0] /Users/badalsharma/.gradle/caches/8.9/transforms/bb563727ce06fef0bfc58202ff826151/transformed/core-1.15.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/a9a685e57104d6f6ad084d4b05840791/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/a9a685e57104d6f6ad084d4b05840791/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.15.0] /Users/badalsharma/.gradle/caches/8.9/transforms/95aaf59fa8ad0720a75845710e0f556c/transformed/core-ktx-1.15.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.15.0] /Users/badalsharma/.gradle/caches/8.9/transforms/95aaf59fa8ad0720a75845710e0f556c/transformed/core-ktx-1.15.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/badalsharma/.gradle/caches/8.9/transforms/0b19ad2da7d1828f7fc991cc124dcec9/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.4.0] /Users/badalsharma/.gradle/caches/8.9/transforms/0b19ad2da7d1828f7fc991cc124dcec9/transformed/sqlite-framework-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/badalsharma/.gradle/caches/8.9/transforms/cb57d5ad37e74b2a941938ac6eeeb4c9/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.4.0] /Users/badalsharma/.gradle/caches/8.9/transforms/cb57d5ad37e74b2a941938ac6eeeb4c9/transformed/sqlite-2.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/badalsharma/.gradle/caches/8.9/transforms/b9a1ca05c17b2380fae9a76aa565e103/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/badalsharma/.gradle/caches/8.9/transforms/b9a1ca05c17b2380fae9a76aa565e103/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/3c1864415e39c6a90447c2dceb712b84/transformed/firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/3c1864415e39c6a90447c2dceb712b84/transformed/firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/2372f36fdde4c15c117860b8574d1b7c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/2372f36fdde4c15c117860b8574d1b7c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1da8bd92f14ad590941b6e325dd85dd5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1da8bd92f14ad590941b6e325dd85dd5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/badalsharma/.gradle/caches/8.9/transforms/0790944aa06e071ce16f3105234c0c9b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/badalsharma/.gradle/caches/8.9/transforms/0790944aa06e071ce16f3105234c0c9b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5cccd65eff37aa24e23ecefd2f305cc4/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5cccd65eff37aa24e23ecefd2f305cc4/transformed/tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/badalsharma/.gradle/caches/8.9/transforms/46c381ddb01644d60a1fc99065fee1a3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/badalsharma/.gradle/caches/8.9/transforms/46c381ddb01644d60a1fc99065fee1a3/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/f7d513f6ba43721f74dfbab094348a5b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/f7d513f6ba43721f74dfbab094348a5b/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1eb00f0de39cbf6eca140dfeed857496/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1eb00f0de39cbf6eca140dfeed857496/transformed/annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/940b0c6e0b899f9d51139f4cee06f757/transformed/googleid-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/940b0c6e0b899f9d51139f4cee06f757/transformed/googleid-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/badalsharma/.gradle/caches/8.9/transforms/70430400de2a16d6cf04b0bb2faedba4/transformed/core-common-2.0.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core-common:2.0.3] /Users/badalsharma/.gradle/caches/8.9/transforms/70430400de2a16d6cf04b0bb2faedba4/transformed/core-common-2.0.3/AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:23:9-148
+	android:targetSdkVersion
+		INJECTED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/badalsharma/Downloads/NotesApp/app/src/main/AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/d97457dcc8a1feccac2d0518fca3b89d/transformed/firebase-auth-ktx-23.1.0/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/349cd41b90eb58b4e449eee1559e05aa/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/349cd41b90eb58b4e449eee1559e05aa/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/0b4a3007dfeb1ba01d93860cc35b6d57/transformed/firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/0b4a3007dfeb1ba01d93860cc35b6d57/transformed/firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/d97457dcc8a1feccac2d0518fca3b89d/transformed/firebase-auth-ktx-23.1.0/AndroidManifest.xml:10:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/0b4a3007dfeb1ba01d93860cc35b6d57/transformed/firebase-common-21.0.0/AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/0b4a3007dfeb1ba01d93860cc35b6d57/transformed/firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/d97457dcc8a1feccac2d0518fca3b89d/transformed/firebase-auth-ktx-23.1.0/AndroidManifest.xml:9:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthLegacyRegistrar
+ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/d97457dcc8a1feccac2d0518fca3b89d/transformed/firebase-auth-ktx-23.1.0/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/d97457dcc8a1feccac2d0518fca3b89d/transformed/firebase-auth-ktx-23.1.0/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth-ktx:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/d97457dcc8a1feccac2d0518fca3b89d/transformed/firebase-auth-ktx-23.1.0/AndroidManifest.xml:12:17-119
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/badalsharma/.gradle/caches/8.9/transforms/3e175585b72ba538c1eae35648628b52/transformed/recaptcha-18.5.1/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/badalsharma/.gradle/caches/8.9/transforms/3e175585b72ba538c1eae35648628b52/transformed/recaptcha-18.5.1/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:26:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:53:13-63:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5e7d0bef102b883d83220297ab4bb476/transformed/firebase-auth-23.1.0/AndroidManifest.xml:70:17-109
+service#androidx.credentials.playservices.CredentialProviderMetadataHolder
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/badalsharma/.gradle/caches/8.9/transforms/56cd0e12cef7a66b57ef26121fa6f7d2/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:24:9-32:19
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/badalsharma/.gradle/caches/8.9/transforms/56cd0e12cef7a66b57ef26121fa6f7d2/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:26:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/badalsharma/.gradle/caches/8.9/transforms/56cd0e12cef7a66b57ef26121fa6f7d2/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/badalsharma/.gradle/caches/8.9/transforms/56cd0e12cef7a66b57ef26121fa6f7d2/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:28:13-60
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/badalsharma/.gradle/caches/8.9/transforms/56cd0e12cef7a66b57ef26121fa6f7d2/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:25:13-94
+meta-data#androidx.credentials.CREDENTIAL_PROVIDER_KEY
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/badalsharma/.gradle/caches/8.9/transforms/56cd0e12cef7a66b57ef26121fa6f7d2/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:29:13-31:104
+	android:value
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/badalsharma/.gradle/caches/8.9/transforms/56cd0e12cef7a66b57ef26121fa6f7d2/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:31:17-101
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/badalsharma/.gradle/caches/8.9/transforms/56cd0e12cef7a66b57ef26121fa6f7d2/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:30:17-76
+activity#androidx.credentials.playservices.HiddenActivity
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/badalsharma/.gradle/caches/8.9/transforms/56cd0e12cef7a66b57ef26121fa6f7d2/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:34:9-41:20
+	android:fitsSystemWindows
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/badalsharma/.gradle/caches/8.9/transforms/56cd0e12cef7a66b57ef26121fa6f7d2/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:39:13-45
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/badalsharma/.gradle/caches/8.9/transforms/56cd0e12cef7a66b57ef26121fa6f7d2/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/badalsharma/.gradle/caches/8.9/transforms/56cd0e12cef7a66b57ef26121fa6f7d2/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:38:13-37
+	android:configChanges
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/badalsharma/.gradle/caches/8.9/transforms/56cd0e12cef7a66b57ef26121fa6f7d2/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:36:13-87
+	android:theme
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/badalsharma/.gradle/caches/8.9/transforms/56cd0e12cef7a66b57ef26121fa6f7d2/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:40:13-48
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /Users/badalsharma/.gradle/caches/8.9/transforms/56cd0e12cef7a66b57ef26121fa6f7d2/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:35:13-76
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:21.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/3368b069eba9f8990ff4aa0a99661929/transformed/play-services-auth-21.3.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:21.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/3368b069eba9f8990ff4aa0a99661929/transformed/play-services-auth-21.3.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/3368b069eba9f8990ff4aa0a99661929/transformed/play-services-auth-21.3.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:21.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/3368b069eba9f8990ff4aa0a99661929/transformed/play-services-auth-21.3.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/3368b069eba9f8990ff4aa0a99661929/transformed/play-services-auth-21.3.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:21.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/3368b069eba9f8990ff4aa0a99661929/transformed/play-services-auth-21.3.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:21.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/3368b069eba9f8990ff4aa0a99661929/transformed/play-services-auth-21.3.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:21.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/3368b069eba9f8990ff4aa0a99661929/transformed/play-services-auth-21.3.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:21.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/3368b069eba9f8990ff4aa0a99661929/transformed/play-services-auth-21.3.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:21.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/3368b069eba9f8990ff4aa0a99661929/transformed/play-services-auth-21.3.0/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/badalsharma/.gradle/caches/8.9/transforms/155c82107601b1a2624fa07a31168fb0/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/badalsharma/.gradle/caches/8.9/transforms/155c82107601b1a2624fa07a31168fb0/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/badalsharma/.gradle/caches/8.9/transforms/155c82107601b1a2624fa07a31168fb0/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/badalsharma/.gradle/caches/8.9/transforms/155c82107601b1a2624fa07a31168fb0/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.6.1] /Users/badalsharma/.gradle/caches/8.9/transforms/8a9b2389c956e1c18167e234ec19ca8e/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/badalsharma/.gradle/caches/8.9/transforms/8a9b2389c956e1c18167e234ec19ca8e/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/badalsharma/.gradle/caches/8.9/transforms/8a9b2389c956e1c18167e234ec19ca8e/transformed/room-runtime-2.6.1/AndroidManifest.xml:28:13-60
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/badalsharma/.gradle/caches/8.9/transforms/8a9b2389c956e1c18167e234ec19ca8e/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.6.1] /Users/badalsharma/.gradle/caches/8.9/transforms/8a9b2389c956e1c18167e234ec19ca8e/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/7d40dc042ed858d62cfe206bcf88edb2/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/7d40dc042ed858d62cfe206bcf88edb2/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/7d40dc042ed858d62cfe206bcf88edb2/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5249ca4ecc2f636aefb7e1089824300e/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/924dae0d5e7202d5552908e93a94f787/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/924dae0d5e7202d5552908e93a94f787/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1da8bd92f14ad590941b6e325dd85dd5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1da8bd92f14ad590941b6e325dd85dd5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/badalsharma/.gradle/caches/8.9/transforms/0790944aa06e071ce16f3105234c0c9b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/badalsharma/.gradle/caches/8.9/transforms/0790944aa06e071ce16f3105234c0c9b/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5249ca4ecc2f636aefb7e1089824300e/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5249ca4ecc2f636aefb7e1089824300e/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5249ca4ecc2f636aefb7e1089824300e/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5249ca4ecc2f636aefb7e1089824300e/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5249ca4ecc2f636aefb7e1089824300e/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5249ca4ecc2f636aefb7e1089824300e/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /Users/badalsharma/.gradle/caches/8.9/transforms/5249ca4ecc2f636aefb7e1089824300e/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/924dae0d5e7202d5552908e93a94f787/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/924dae0d5e7202d5552908e93a94f787/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /Users/badalsharma/.gradle/caches/8.9/transforms/924dae0d5e7202d5552908e93a94f787/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+activity#androidx.activity.ComponentActivity
+ADDED from [androidx.compose.ui:ui-test-manifest:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/5fec97499d599eecf439c16a9b7041b3/transformed/ui-test-manifest-1.7.6/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/5fec97499d599eecf439c16a9b7041b3/transformed/ui-test-manifest-1.7.6/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-test-manifest:1.7.6] /Users/badalsharma/.gradle/caches/8.9/transforms/5fec97499d599eecf439c16a9b7041b3/transformed/ui-test-manifest-1.7.6/AndroidManifest.xml:24:13-63
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/badalsharma/.gradle/caches/8.9/transforms/3e175585b72ba538c1eae35648628b52/transformed/recaptcha-18.5.1/AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from [com.google.android.recaptcha:recaptcha:18.5.1] /Users/badalsharma/.gradle/caches/8.9/transforms/3e175585b72ba538c1eae35648628b52/transformed/recaptcha-18.5.1/AndroidManifest.xml:9:22-95
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/349cd41b90eb58b4e449eee1559e05aa/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/349cd41b90eb58b4e449eee1559e05aa/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/349cd41b90eb58b4e449eee1559e05aa/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/0b4a3007dfeb1ba01d93860cc35b6d57/transformed/firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/0b4a3007dfeb1ba01d93860cc35b6d57/transformed/firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/0b4a3007dfeb1ba01d93860cc35b6d57/transformed/firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/0b4a3007dfeb1ba01d93860cc35b6d57/transformed/firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/0b4a3007dfeb1ba01d93860cc35b6d57/transformed/firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/0b4a3007dfeb1ba01d93860cc35b6d57/transformed/firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/0b4a3007dfeb1ba01d93860cc35b6d57/transformed/firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/0b4a3007dfeb1ba01d93860cc35b6d57/transformed/firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/badalsharma/.gradle/caches/8.9/transforms/0b4a3007dfeb1ba01d93860cc35b6d57/transformed/firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/badalsharma/.gradle/caches/8.9/transforms/4b44bcb660e205d313ef9b87bc3061fd/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/badalsharma/.gradle/caches/8.9/transforms/4b44bcb660e205d313ef9b87bc3061fd/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/badalsharma/.gradle/caches/8.9/transforms/4b44bcb660e205d313ef9b87bc3061fd/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /Users/badalsharma/.gradle/caches/8.9/transforms/bb563727ce06fef0bfc58202ff826151/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] /Users/badalsharma/.gradle/caches/8.9/transforms/bb563727ce06fef0bfc58202ff826151/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /Users/badalsharma/.gradle/caches/8.9/transforms/bb563727ce06fef0bfc58202ff826151/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+permission#com.notesapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /Users/badalsharma/.gradle/caches/8.9/transforms/bb563727ce06fef0bfc58202ff826151/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.15.0] /Users/badalsharma/.gradle/caches/8.9/transforms/bb563727ce06fef0bfc58202ff826151/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /Users/badalsharma/.gradle/caches/8.9/transforms/bb563727ce06fef0bfc58202ff826151/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /Users/badalsharma/.gradle/caches/8.9/transforms/bb563727ce06fef0bfc58202ff826151/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /Users/badalsharma/.gradle/caches/8.9/transforms/bb563727ce06fef0bfc58202ff826151/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+uses-permission#com.notesapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.15.0] /Users/badalsharma/.gradle/caches/8.9/transforms/bb563727ce06fef0bfc58202ff826151/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.15.0] /Users/badalsharma/.gradle/caches/8.9/transforms/bb563727ce06fef0bfc58202ff826151/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1da8bd92f14ad590941b6e325dd85dd5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1da8bd92f14ad590941b6e325dd85dd5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1da8bd92f14ad590941b6e325dd85dd5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1da8bd92f14ad590941b6e325dd85dd5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1da8bd92f14ad590941b6e325dd85dd5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1da8bd92f14ad590941b6e325dd85dd5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1da8bd92f14ad590941b6e325dd85dd5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1da8bd92f14ad590941b6e325dd85dd5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1da8bd92f14ad590941b6e325dd85dd5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1da8bd92f14ad590941b6e325dd85dd5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1da8bd92f14ad590941b6e325dd85dd5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1da8bd92f14ad590941b6e325dd85dd5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1da8bd92f14ad590941b6e325dd85dd5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1da8bd92f14ad590941b6e325dd85dd5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1da8bd92f14ad590941b6e325dd85dd5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1da8bd92f14ad590941b6e325dd85dd5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1da8bd92f14ad590941b6e325dd85dd5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1da8bd92f14ad590941b6e325dd85dd5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1da8bd92f14ad590941b6e325dd85dd5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1da8bd92f14ad590941b6e325dd85dd5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/badalsharma/.gradle/caches/8.9/transforms/1da8bd92f14ad590941b6e325dd85dd5/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core-common:2.0.3] /Users/badalsharma/.gradle/caches/8.9/transforms/70430400de2a16d6cf04b0bb2faedba4/transformed/core-common-2.0.3/AndroidManifest.xml:14:9-18:65
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core-common:2.0.3] /Users/badalsharma/.gradle/caches/8.9/transforms/70430400de2a16d6cf04b0bb2faedba4/transformed/core-common-2.0.3/AndroidManifest.xml:17:13-42
+	android:exported
+		ADDED from [com.google.android.play:core-common:2.0.3] /Users/badalsharma/.gradle/caches/8.9/transforms/70430400de2a16d6cf04b0bb2faedba4/transformed/core-common-2.0.3/AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [com.google.android.play:core-common:2.0.3] /Users/badalsharma/.gradle/caches/8.9/transforms/70430400de2a16d6cf04b0bb2faedba4/transformed/core-common-2.0.3/AndroidManifest.xml:18:13-62
+	android:name
+		ADDED from [com.google.android.play:core-common:2.0.3] /Users/badalsharma/.gradle/caches/8.9/transforms/70430400de2a16d6cf04b0bb2faedba4/transformed/core-common-2.0.3/AndroidManifest.xml:15:13-93
