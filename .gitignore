@@ -4,6 +4,7 @@
 /.idea
 .DS_Store
 /build
+app/build
 /captures
 .externalNativeBuild
 .cxx
@@ -12,3 +13,8 @@ local.properties
 # Sensitive - never commit these
 app/google-services.json
 google-services.json
+
+# Large/generated files
+*.hprof
+*.ap_
+*.dex
