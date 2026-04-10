@@ -1,18 +1,20 @@
-# 📝 Notes App — Android Intern Assignment
+# Notes App
 
-A production-ready Notes application built with **Jetpack Compose**, **MVVM**, **Room**, and **Firebase Authentication**.
+A notes application built with Jetpack Compose, MVVM, Room, and Firebase Authentication.
 
 ---
 
-## 📸 Screens
+## Screenshots
+
+<!-- Add your screenshots here -->
 
 | Login | Notes List | Add / Edit Note |
 |-------|------------|-----------------|
-| Email/Password + Google Sign-In | LazyColumn with colored cards, search, long-press delete | Clean title + body editor with save/discard |
+| &nbsp; | &nbsp; | &nbsp; |
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -20,13 +22,13 @@ A production-ready Notes application built with **Jetpack Compose**, **MVVM**, *
 | UI | Jetpack Compose (Material 3) |
 | Architecture | MVVM |
 | Local DB | Room |
-| Auth | Firebase Email/Password + Google One Tap |
+| Auth | Firebase Email/Password + Google Sign-In |
 | Async | Kotlin Coroutines + StateFlow |
 | Navigation | Jetpack Navigation Compose |
 
 ---
 
-## 🏗 Architecture
+## Architecture
 
 ```
 UI (Composables)
@@ -38,133 +40,75 @@ Repository  (AuthRepository, NoteRepository)
 Room Database  ←→  Firebase Auth
 ```
 
-- **No business logic in UI** — all logic lives in ViewModels
-- **Repository pattern** — UI never directly touches data sources
-- **StateFlow** drives all UI state reactively
-- **No DI frameworks** — dependencies wired manually via `viewModel()` factory
+- No business logic in UI — all logic lives in ViewModels
+- Repository pattern — UI never directly touches data sources
+- StateFlow drives all UI state reactively
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 app/src/main/java/com/notesapp/
 ├── data/
 │   ├── local/
-│   │   ├── NoteDao.kt            # Room DAO
-│   │   └── NotesDatabase.kt      # Room Database singleton
+│   │   ├── NoteDao.kt
+│   │   └── NotesDatabase.kt
 │   ├── model/
-│   │   └── Note.kt               # @Entity data class
+│   │   └── Note.kt
 │   └── repository/
-│       ├── AuthRepository.kt     # Firebase Auth wrapper
-│       └── NoteRepository.kt     # Room CRUD wrapper
+│       ├── AuthRepository.kt
+│       └── NoteRepository.kt
 ├── ui/
 │   ├── screens/
-│   │   ├── LoginScreen.kt        # Auth screen
-│   │   ├── NotesListScreen.kt    # Notes list + search + delete
-│   │   └── AddEditNoteScreen.kt  # Create / edit note
+│   │   ├── LoginScreen.kt
+│   │   ├── NotesListScreen.kt
+│   │   └── AddEditNoteScreen.kt
 │   ├── theme/
-│   │   ├── Color.kt
-│   │   ├── Theme.kt              # Light + Dark theme
-│   │   └── Typography.kt
-│   ├── AppNavigation.kt          # NavHost + routes
-│   └── Screen.kt                 # Sealed class routes
+│   ├── AppNavigation.kt
+│   └── Screen.kt
 ├── viewmodel/
-│   ├── AuthViewModel.kt          # Auth state + actions
-│   └── NotesViewModel.kt         # Notes state + CRUD actions
+│   ├── AuthViewModel.kt
+│   └── NotesViewModel.kt
 └── MainActivity.kt
 ```
 
 ---
 
-## 🚀 Setup Steps
+## Setup
 
-### 1. Clone the repository
+### 1. Clone the repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/notes-app.git
+git clone https://github.com/badalm06/notes-app.git
 cd notes-app
 ```
 
-### 2. Firebase Setup (Required)
+### 2. Firebase Setup
 
-1. Go to [Firebase Console](https://console.firebase.google.com/)
-2. Create a new project
-3. Add an Android app:
-   - **Package name:** `com.notesapp`
-   - **App nickname:** Notes App
-4. Enable **Authentication** → **Sign-in methods**:
-   - ✅ Email/Password
-   - ✅ Google
-5. Download `google-services.json` → place it in `app/` folder
-6. Copy your **Web Client ID** from `google-services.json` (look for `"client_type": 3`)
-7. Open `app/src/main/res/values/strings.xml` and replace:
-   ```xml
-   <string name="default_web_client_id">PASTE_YOUR_WEB_CLIENT_ID_HERE</string>
+1. Go to [Firebase Console](https://console.firebase.google.com/) and create a project
+2. Add an Android app with package name `com.notesapp`
+3. Enable **Authentication → Sign-in methods**: Email/Password and Google
+4. Download `google-services.json` and place it in the `app/` folder
+5. In Firebase Console → Project Settings → add your **SHA-1 fingerprint** (required for Google Sign-In)
+   ```bash
+   ./gradlew signingReport
    ```
 
-### 3. Build & Run
+### 3. Run
+Open in Android Studio and click Run, or:
 ```bash
 ./gradlew assembleDebug
 ```
-Or open in **Android Studio Hedgehog or newer** and click ▶ Run.
 
 ---
 
-## ✅ Features Checklist
+## Features
 
-### Authentication
-- [x] Email/Password sign in
-- [x] Email/Password registration
-- [x] Google Sign-In (One Tap)
-- [x] Session persistence (Firebase handles this)
-- [x] Sign out
-
-### Notes CRUD
-- [x] Create note (title + content)
-- [x] View notes list (LazyColumn)
-- [x] Edit note
-- [x] Delete note with confirmation dialog
-- [x] Per-user data isolation (userId stored with each note)
-
-### UI/UX
-- [x] Jetpack Compose only (zero XML layouts)
-- [x] Material 3 design
-- [x] Login screen
-- [x] Notes list screen
-- [x] Add/Edit note screen
-- [x] Empty state handling
-- [x] Search/filter notes
-- [x] Colored note cards
-- [x] Delete confirmation dialog
-- [x] Discard changes dialog
-
-### Theme
-- [x] Light theme
-- [x] Dark theme
-- [x] Respects system theme
-- [x] Dynamic color (Android 12+)
-
----
-
-## 🗄 Data Model
-
-```kotlin
-@Entity(tableName = "notes")
-data class Note(
-    @PrimaryKey(autoGenerate = true) val id: Int = 0,
-    val title: String,
-    val content: String,
-    val lastUpdated: Long = System.currentTimeMillis(),
-    val userId: String = ""   // Scoped to logged-in user
-)
-```
-
----
-
-## 📋 Evaluation Notes
-
-- **Code quality**: Single-responsibility composables, sealed state classes, no logic in UI
-- **Compose usage**: LazyColumn, StateFlow + collectAsState, Navigation Compose, Material 3 components throughout
-- **Architecture**: Strict MVVM — UI → ViewModel → Repository → Room/Firebase
-- **UI/UX polish**: Colored cards, smooth animations, search, empty states, dialogs, edge-to-edge
-- **Auth & CRUD**: Full Firebase auth flow + complete Room CRUD with per-user data isolation
+- Email/Password sign in & registration
+- Google Sign-In
+- Create, edit, delete notes
+- Per-user data isolation
+- Search/filter notes
+- Colored note cards
+- Light & dark theme
+- Empty state handling
