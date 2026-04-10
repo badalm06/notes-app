@@ -10,7 +10,7 @@ A notes application built with Jetpack Compose, MVVM, Room, and Firebase Authent
 
 | Login | Notes List | Add / Edit Note |
 |-------|------------|-----------------|
-| &nbsp; | &nbsp; | &nbsp; |
+| <img src="https://github.com/user-attachments/assets/f044f646-1d90-4cc5-9ff2-9a6b570e6dad" width="220"/> | <img src="https://github.com/user-attachments/assets/d591a7d6-27d7-4475-ae52-eb1c6d4dcee2" width="220"/> | <img src="https://github.com/user-attachments/assets/caa78b1f-12cb-47a3-88b6-96acea43f39e" width="220"/> |
 
 ---
 
